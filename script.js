@@ -1,20 +1,65 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const buyButtons = document.querySelectorAll('.btn');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiaz game store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-    buyButtons.forEach(function(button) {
-        button.addEventListener('click', function(e) {
-            e.preventDefault();
+<header>
+    <h1>Faiaz Game Store</h1>
+    
+  <p>Buy your favorite games for zero prices</p>
+  <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search games...">
+        <span id="searchIcon" class="animated-icon">&#128269;</span> <!-- magnifying glass icon -->
+    </div>
+</header>
 
-            const gameTitle = this.parentElement.querySelector('h3').innerText;
-            alert(`Thank you for choosing to buy ${gameTitle}!`);
+<section class="container">
+   <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png" alt="GTA 5">
+    <div class="card-content">
+        <h3>GTA 5</h3>
+        <p>Experience the legendary open-world adventure.</p>
+       <a href="gta5.rar" class="btn"download>download</a>
+    </div>
+    </div>
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg" alt="RDR 2">
+        <div class="card-content">
+            <h3>Red Dead Redemption 2</h3>
+            <p>Immerse yourself in the epic Wild West journey.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEpXPIO_plrR5UTbzBZ70Qr7nRmE36y4nunQveJ8HL70lKAI8b6A&s=10&ec=72940544">
+        <div class="card-content">
+            <h3>Cyberpunk 2077</h3>
+            <p>Step into the futuristic world of Night City.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+   </div>
+    <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZq4IXcYgE6VND6WC8eaS-Tff758dF_wlrAm7CK6zFRg&s&ec=72940544">
+        <div class="card-content">
+            <h3>Grand theft Auto San Andreas</h4>
+            <p>Download it for free.</p>
+             <a href="GTA_SA.torrent" class="btn"download>download</a>
+        </div>
+    </div>
+</section>
 
-            // Add animation effect to the card
-            const card = this.closest('.card');
-            card.classList.add('highlight');
+<footer>
+  &copy; 2025 Faiaz Game Store by Adib Al Faiaz. All rights reserved.
+   
+   
+</footer>
 
-            setTimeout(() => {
-                card.classList.remove('highlight');
-            }, 1000);
-        });
-    });
-});
+</body>
+</html>
+
