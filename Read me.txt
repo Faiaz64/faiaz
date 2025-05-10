@@ -1,0 +1,26 @@
+To extract the contents of a torrent archive, you'll first need to download the .torrent file using a BitTorrent client like uTorrent or BitTorrent. Once downloaded, the client will automatically begin downloading the files associated with the torrent. After the download is complete, you can then open the folder where the files were downloaded and extract them as needed. 
+Here's a more detailed breakdown: 
+
+1. Download a BitTorrent client:
+You'll need a program like uTorrent, BitTorrent, or qBittorrent to download and manage torrents.
+
+2. Download the .torrent file:
+Find the .torrent file online and download it using your chosen client.
+
+3. Open the .torrent file:
+Double-click the downloaded .torrent file, and it will automatically open in your BitTorrent client.
+
+4. Choose a download location:
+The client will prompt you to select a folder where you want the torrent's files to be saved.
+
+5. Start the download:
+Click "OK" and the download will begin.
+
+6. Wait for completion:
+The download process might take some time, depending on the size of the torrent.
+
+7. Open the download folder:
+Once the download is complete, open the folder where the files were saved to view the contents of the torrent.
+
+8. Extract or use the files:
+You can now extract any archives (like .zip files) within the folder or use the files directly depending on their type.
